@@ -9,7 +9,7 @@ This is school project for course website developement.
 
 #### 00A - Introduction to the Internet and WWW (Quiz)
 
-- 10 quoestions about Internet and WWW
+- 10 questions about Internet and WWW
    - Done with score 4.5/5
 
 #### 00B - Tutustu opintojaksolla käytettäviin työkaluihin
@@ -26,6 +26,10 @@ This is school project for course website developement.
 ## ⏭️ Next Modules
 
 ### 01 - HTML Basics
+
+#### 01A HTML Basics (Quiz)
+
+#### 01B - Workshop HTML Basics
 
 ## ❌ To Do Modules
 

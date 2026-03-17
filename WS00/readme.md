@@ -1,0 +1,1 @@
+WS00 directory for Workshop 00

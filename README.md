@@ -18,7 +18,9 @@ This is school project for course website developement.
   - Final result: https://mikaelmurto.github.io/Website-Project/00B
 - [Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
   - [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/zdfjrgt2)
+  - Repository found here: https://github.com/mikaelmurto/skills-introduction-to-git
 - [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+  - WIP
 
 
 ## ⏭️ Next Modules

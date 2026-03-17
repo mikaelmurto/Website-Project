@@ -15,6 +15,7 @@ This is school project for course website developement.
 #### 00B - Tutustu opintojaksolla käytettäviin työkaluihin
 - [Get started with web development using Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/)
   - [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/9rsae7vu)
+  - Final result: https://mikaelmurto.github.io/Website-Project/00B
 - [Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
   - [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/zdfjrgt2)
 - [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)

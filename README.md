@@ -9,8 +9,8 @@ This is school project for course website developement.
 
 * ##### 00A - Introduction to the Internet and WWW (Quiz)
 
-- 10 questions about Internet and WWW
-   - Done with score 4.5/5
+  - 10 questions about Internet and WWW
+     - Done with score 4.5/5
 
 * ##### 00B - Tutustu opintojaksolla käytettäviin työkaluihin
   * [Get started with web development using Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/)
@@ -23,6 +23,8 @@ This is school project for course website developement.
 ### 01 - HTML Basics
 
 * ##### 01A - HTML Basics (Quiz)
+- 10 questions about HTML Basics
+   - Done with score 4.5/5 (I made very stupid mistake in one question...)
 
 * ##### 01B - Workshop HTML Basics
 

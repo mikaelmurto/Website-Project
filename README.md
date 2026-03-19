@@ -27,15 +27,35 @@ This is school project for course website developement.
 
 ### 01 - HTML Basics
 
-#### 01A HTML Basics (Quiz)
+#### 01A - HTML Basics (Quiz)
 
 #### 01B - Workshop HTML Basics
 
 ## ❌ To Do Modules
 
-### 02 - 
-### 03 - 
-### 04 - 
-### 05 - 
-### 06 - 
+### 02 - CSS Fundamentals
+
+#### 02A - CSS Basics (Quiz)
+#### 02B - Workshop CSS Fundamentals
+
+### 03 - Advanced CSS techniques
+
+#### 03A - Advanced CSS (Quiz)
+#### 03B - Workshop Advanced CSS Techniques
+
+### 04 - Introduction to Bootstrap
+
+#### 04A- Page Layout (Quiz)
+#### 04B - Workshop Page Layout
+
+### 05 - Responsive Design
+
+#### 05A- Web Design (Quiz)
+#### 05B - Workshop Responsive Design principles
+
+### 06 - Introduction to Bootstrap
+
+#### 06A - Using Front-end frameworks (Bootstrap) (Quiz)
+#### 06B - Workshop Bootstrap
+
 ### 07 - 

@@ -20,21 +20,21 @@ This is school project for course website developement.
   * [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
     * [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/yphclpzr)
 
-
-## ⏭️ Next Modules
-
 ### 01 - HTML Basics
 
 * ##### 01A - HTML Basics (Quiz)
 
 * ##### 01B - Workshop HTML Basics
 
-## ❌ To Do Modules
+## ⏭️ Next Modules
 
 ### 02 - CSS Fundamentals
 
 * ##### 02A - CSS Basics (Quiz)
 * ##### 02B - Workshop CSS Fundamentals
+
+## ❌ To Do Modules
+
 
 ### 03 - Advanced CSS techniques  
 

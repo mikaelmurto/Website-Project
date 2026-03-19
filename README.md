@@ -7,55 +7,53 @@ This is school project for course website developement.
 
 ### 00 - Introduction to the Internet, World Wide Web and Web development
 
-#### 00A - Introduction to the Internet and WWW (Quiz)
+* ##### 00A - Introduction to the Internet and WWW (Quiz)
 
 - 10 questions about Internet and WWW
    - Done with score 4.5/5
 
-#### 00B - Tutustu opintojaksolla käytettäviin työkaluihin
-- [Get started with web development using Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/)
-  - [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/9rsae7vu)
-  - Final result: https://mikaelmurto.github.io/Website-Project/00B
-- [Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
-  - [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/zdfjrgt2)
-  - Repository found here: https://github.com/mikaelmurto/skills-introduction-to-git
-- [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
-  - WIP
+* ##### 00B - Tutustu opintojaksolla käytettäviin työkaluihin
+  * [Get started with web development using Visual Studio Code](https://learn.microsoft.com/en-us/training/modules/get-started-with-web-development/)
+    * [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/9rsae7vu)
+  * [Introduction to Git](https://learn.microsoft.com/en-us/training/modules/intro-to-git/)
+    * [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/zdfjrgt2)
+  * [Introduction to GitHub](https://learn.microsoft.com/en-us/training/modules/introduction-to-github/)
+    * [Completion Badge](https://learn.microsoft.com/en-us/users/mikaelmurto-8638/achievements/yphclpzr)
 
 
 ## ⏭️ Next Modules
 
 ### 01 - HTML Basics
 
-##### 01A - HTML Basics (Quiz)
+* ##### 01A - HTML Basics (Quiz)
 
-##### 01B - Workshop HTML Basics
+* ##### 01B - Workshop HTML Basics
 
 ## ❌ To Do Modules
 
 ### 02 - CSS Fundamentals
 
-##### 02A - CSS Basics (Quiz)
-##### 02B - Workshop CSS Fundamentals
+* ##### 02A - CSS Basics (Quiz)
+* ##### 02B - Workshop CSS Fundamentals
 
-### 03 - Advanced CSS techniques
+### 03 - Advanced CSS techniques  
 
-##### 03A - Advanced CSS (Quiz)
-##### 03B - Workshop Advanced CSS Techniques
+* ##### 03A - Advanced CSS (Quiz)
+* ##### 03B - Workshop Advanced CSS Techniques
 
 ### 04 - Introduction to Bootstrap
 
-##### 04A- Page Layout (Quiz)
-##### 04B - Workshop Page Layout
+* ##### 04A- Page Layout (Quiz)
+* ##### 04B - Workshop Page Layout
 
 ### 05 - Responsive Design
 
-##### 05A- Web Design (Quiz)
-##### 05B - Workshop Responsive Design principles
+* ##### 05A- Web Design (Quiz)
+* ##### 05B - Workshop Responsive Design principles
 
 ### 06 - Introduction to Bootstrap
 
-##### 06A - Using Front-end frameworks (Bootstrap) (Quiz)
-##### 06B - Workshop Bootstrap
+* ##### 06A - Using Front-end frameworks (Bootstrap) (Quiz)
+* ##### 06B - Workshop Bootstrap
 
 ### 07 - 

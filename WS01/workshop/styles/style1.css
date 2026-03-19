@@ -26,6 +26,16 @@ img {
       text-align: center;
       background-color: #f0f0f0;
       border: 3px solid #ccc;
+      border-radius: 10px;
+    }
+
+.hobbies-youtube-section {
+      padding: 10px;
+      text-align: center;
+      background-color: #f0f0f0;
+      margin-left: 500px;
+      margin-right: 500px;
+      border-radius: 10px;
     }
 
 .contact-section {
@@ -34,13 +44,25 @@ img {
       background-color: #f0f0f0;
       margin-left: 500px;
       margin-right: 500px;
+      border-radius: 10px;
+    }
+
+.courses-section {
+      padding: 10px;
+      text-align: center;
+      background-color: #f0f0f0;
+      margin-left: 400px;
+      margin-right: 400px;
+      border-radius: 10px;
     }
 
 table {
-      width: 30%;
+      width: 95%;
       border-collapse: collapse;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
     
     th, td {

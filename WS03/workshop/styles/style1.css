@@ -56,6 +56,78 @@ img {
       border-radius: 10px;
     }
 
+.WS03 {
+      padding: 10px;
+      text-align: center;
+      background-color: #f0f0f0;
+      margin-left: 500px;
+      margin-right: 500px;
+      border-radius: 10px;
+    }
+
+.transition-button {
+        background-color: rgb(145, 145, 145);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 1s ease;
+        transition: 
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(255, 0, 0);
+
+      }
+
+.animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightgreen;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+
+.pseudo-list li:nth-child(odd) {
+        background-color: lightgray;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: white;
+      }
+
+.filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.6s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+
 table {
       width: 95%;
       border-collapse: collapse;

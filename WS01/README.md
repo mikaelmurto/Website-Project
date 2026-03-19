@@ -1,1 +1,1 @@
-Tämä on yksi harjoitusmoduuli
+Current progress: https://mikaelmurto.github.io/Website-Project/WS01/workshop/

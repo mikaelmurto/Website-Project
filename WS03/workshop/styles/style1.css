@@ -21,8 +21,8 @@ img {
 
 .header-section {
       padding: 30px;
-      margin-left: 400px;
-      margin-right: 400px;
+      margin: 5px auto;
+      width: 500px;
       text-align: center;
       background-color: #f0f0f0;
       border: 3px solid #ccc;
@@ -31,37 +31,41 @@ img {
 
 .hobbies-youtube-section {
       padding: 10px;
+      margin: 5px auto;
+      width: 600px;
       text-align: center;
       background-color: #f0f0f0;
-      margin-left: 500px;
-      margin-right: 500px;
+      border: 3px solid #ccc;
       border-radius: 10px;
     }
 
 .contact-section {
       padding: 10px;
+      margin: 5px auto;
+      width: 400px;
       text-align: center;
       background-color: #f0f0f0;
-      margin-left: 500px;
-      margin-right: 500px;
+      border: 3px solid #ccc;
       border-radius: 10px;
     }
 
 .courses-section {
       padding: 10px;
+      margin: 5px auto;
+      width: 650px;
       text-align: center;
       background-color: #f0f0f0;
-      margin-left: 400px;
-      margin-right: 400px;
+      border: 3px solid #ccc;
       border-radius: 10px;
     }
 
 .WS03 {
       padding: 10px;
+      margin: 5px auto;
+      width: 500px;
       text-align: center;
       background-color: #f0f0f0;
-      margin-left: 500px;
-      margin-right: 500px;
+      border: 3px solid #ccc;
       border-radius: 10px;
     }
 
@@ -143,28 +147,28 @@ table {
       margin-top: 10px;
     }
     
-    th, td {
+th, td {
       border: 1px solid #a3a3a3;
       padding: 8px;
       text-align: left;
     }
     
-    th {
+th {
       background-color: #ffdcdc;
     }
     
-    form {
+form {
       display: flex;
       flex-direction: column;
       gap: 10px;
     }
     
-    label {
+label {
       font-weight: bold;
       text-align: center;
     }
     
-    input[type="text"], input[type="email"] {
+input[type="text"], input[type="email"] {
       padding: 8px;
       border: 1px solid #ddd;
       border-radius: 4px;
@@ -172,7 +176,7 @@ table {
       margin-right: auto;
     }
     
-    input[type="submit"] {
+input[type="submit"] {
       background-color: #4CAF50;
       color: white;
       padding: 10px;
@@ -183,6 +187,6 @@ table {
       cursor: pointer;
     }
     
-    input[type="submit"]:hover {
+input[type="submit"]:hover {
       background-color: #45a049;
     }

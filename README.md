@@ -28,25 +28,23 @@ This is school project for course website developement.
 
 * ##### 01B - Workshop HTML Basics
 
-## ⏭️ Next Modules
-
 ### 02 - CSS Fundamentals
 
 * ##### 02A - CSS Basics (Quiz)
 * ##### 02B - Workshop CSS Fundamentals
 
-## ❌ To Do Modules
-
-
 ### 03 - Advanced CSS techniques  
 
 * ##### 03A - Advanced CSS (Quiz)
 * ##### 03B - Workshop Advanced CSS Techniques
+## ⏭️ Next Modules
 
 ### 04 - Introduction to Bootstrap
 
 * ##### 04A- Page Layout (Quiz)
 * ##### 04B - Workshop Page Layout
+
+## ❌ To Do Modules
 
 ### 05 - Responsive Design
 

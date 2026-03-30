@@ -8,13 +8,16 @@
 <body>
 <header>
   <h1>My Website</h1>
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div>
+    <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -23,27 +26,40 @@
     <p>This is a paragraph about me.</p>
   </section>
 
-<div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>
-</div>
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
 
-<div class="flex-container">
-  <div class="box">Box 1</div>
-  <div class="box">Box 2</div>
-  <div class="box">Box 3</div>
-</div>
+  <div class="flex-container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+  </div>
 
-<div class="responsive-box">Resize the window to see the effect</div>
+  <div class="responsive-box">Resize the window to see the effect</div>
 
+<!-- WS06 starts here -->
+
+  <div class="responsive-container">
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+  </div>
+
+<!-- En keksinyt keinoa kirjoittaa HTML tagia AlT tekstiin. -->
+  <img src="img/image.png" alt="AI generated image, prompt: Create image where you refer this code" class="responsive-image">
+
+  <div class="media-query-box">Resize the window to see the effect</div>
 </main>
 
 <footer>
-  <p>Copyright 2026</p>
+  <div class="footer-content">
+    <p>Copyright 2026</p>
+  </div>
 </footer>
 
 

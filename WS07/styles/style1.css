@@ -1,0 +1,16 @@
+
+/* Color palette https://colorhunt.co/palette/091413285a48408a71b0e4cc 
+#091413
+#285A48
+#408A71
+#B0E4CC
+*/
+:root {
+  --bs-primary: #285A48;
+  --bs-body-color: #091413;
+  --bs-body-bg: #39ca5d;
+  --bs-secondary-color: #091413BF;
+  --bs-secondary-bg: #408A71;
+  --bs-teriary-color: #09141380;
+  --bs-tertiary-bg: #D7F1E5;
+}

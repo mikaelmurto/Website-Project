@@ -79,46 +79,137 @@
         löytyy tuhansia erilaisia lisäpalikoita ulkoasun kustomointiin ja marginaalisten laitteiden integrointiin.
       </p>
       <p class="fs-5">
-        Dashboardin pääsivu toimii ikäänkuin kodin digitaalisena kaukosäätimenä josta pääsee käsiksi kaikkiin tärkeimpiin toimintoihin ja oleellisimpiin tietoihin.
-
-      <p class="fs-5">
+        Dashboardin pääsivu toimii ikäänkuin kodin digitaalisena kaukosäätimenä josta pääsee käsiksi kaikkiin tärkeimpiin toimintoihin ja oleellisimpiin tietoihin. Saat kuvat isommaksi klikkaamalla!
+        Tärkeimmät automaatioihin liittyvät asiat omassa toteutuksessani on kiinteistäkuston ja sähköauton latauksen optimointi tiedossa olevien sähkön hintojen pohjalta, lämmityksen optimointi ja ohjaus, 
+        valaistuksen ohjaus ja tietysti kaikenlainen datan kerääminen ja visualisointi.
       </p>
-
-
-      <div class="row">
-        <div class="col-md-12 my-2"></div>
-
-        <div class="col-md-6">
-          <p class="fs-3 border-bottom text-dark fw-bold">Kuvia projekteista</p>
-        </div>
-
-        <div class="col-md-6">
-          <p class="fs-3 border-bottom text-dark fw-bold">Muita harrastuksia</p>
-        </div>
-
       </div>
-    </div>
+
       <div class="col-md-4 p-4 my-2">
-        <img src="img/ha1.png" class="d-block w-100" alt="Home Assistant dashboardin pääsivu.">
-        </br>
-        <img src="img/ha2.png" class="d-block w-100" alt="Home Assistant dashboardin energiasivu.">
-      </div>
-
-      <div class="col-md-12 my-2 p-3">
+        <img src="img/ha1.png" class="img-fluid rounded mt-2 shadow-sm open-image" alt="Home Assistant dashboardin pääsivu." data-bs-toggle="modal" data-bs-target="#kuvaModal">
+        <p class="fs-6 mt-1 text-center text-muted">
+          Home Assistant dashboardin pääsivu
+        </p>
+        <img src="img/ha2.png" class="img-fluid rounded mt-2 shadow-sm open-image" alt="Home Assistant dashboardin energiasivu." data-bs-toggle="modal" data-bs-target="#kuvaModal">
+        <p class="fs-6 mt-1 text-center text-muted">
+          Home Assistant dashboardin energiasivu
+        </p>
       </div>
 
   </div>
-  
-  <div class="row">
-    <div class="col-8">
+
+    <div class="row">
+      <div class="col-md-4 p-3">
+        <p class="fs-3 border-bottom text-dark fw-bold">Kotiautomaatio lukuina</p>
+        <table class="table bg-dark text-white">
+          <tbody>
+            <tr>
+              <td class="bg-dark text-white">Integraatiot</td>
+              <td class="bg-dark text-white">49 kpl</td>
+            </tr>
+            <tr>
+              <td class="bg-dark text-white">Laitteet</td>
+              <td class="bg-dark text-white">173 kpl</td>
+            </tr>
+            <tr>
+              <td class="bg-dark text-white">Entiteetit</td>
+              <td class="bg-dark text-white">1096 kpl</td>
+            </tr>
+            <tr>
+              <td class="bg-dark text-white" colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="bg-dark text-white">MariaDB koko</td>
+              <td class="bg-dark text-white">5.8 GB</td>
+            </tr>
+            <tr>
+              <td class="bg-dark text-white">InfluxDB koko</td>
+              <td class="bg-dark text-white">15.4 GB</td>
+            </tr>
+          </tbody>
+        </table>
+
+      <div class="col-md-4 my-2 pt-3"></div>
+        <p class="fs-3 border-bottom text-dark fw-bold">Linkkejä</p>
+        <div class="p-3 bg-dark rounded shadow-sm custom-links">
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2 custom-link">
+              <a href="https://www.home-assistant.io/" class="text-decoration-none text-light d-block p-2 rounded">Home Assistant</a>
+            </li>
+            <li class="mb-2 custom-link">
+              <a href="https://github.com/home-assistant" class="text-decoration-none text-light d-block p-2 rounded">Home Assistant (GitHub)</a>
+            </li>
+            <li class="mb-2 custom-link">
+              <a href="https://nodered.org/" class="text-decoration-none text-light d-block p-2 rounded">Node-RED</a>
+            </li>
+            <li class="mb-2 custom-link">
+              <a href="https://mariadb.org/" class="text-decoration-none text-light d-block p-2 rounded">MariaDB</a>
+            </li>
+            <li class="mb-2 custom-link">
+              <a href="https://www.influxdata.com/" class="text-decoration-none text-light d-block p-2 rounded">InfluxDB</a>
+            </li>
+            <li class="mb-2 custom-link">
+              <a href="https://grafana.com/" class="text-decoration-none text-light d-block p-2 rounded">Grafana</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </div>
+      <div class="col-md-8 p-3">
+      <p class="fs-3 border-bottom text-dark fw-bold">Oma toteutus</p>
+      <p class="fs-5">
+        Home Assistant tarjoaa oman alustan toteuttaa automaatioita mutta omat automaationi olen toteuttanut NodeRED laajennuksella jolla automaatiot on helppo toteuttaa flow tyyppisesti ja 
+        lisäksi se tarjoaa mahdollisuuden käyttää Javascript funktioita monimutkaisempien automaatioiden toteuttamiseen. Olen toteuttanut lähes kaikki automaatiot NodeREDin avulla ja käyttänyt Home Assistantin tarjoamia työkaluja 
+        lähinnä erilaisten helpereiden tekemiseen.
+      </p>
+      <p class="fs-5">
+        Useimmat älylaite valmistajat tai valmistajat joiden laitteissa on älyominaisuuksia yrittävät tarjota integraatiota oman pilvipalvelunsa kautta mutta olen itse pyrkinyt mahdollisuuksien mukaan toteuttamaan integraatiot suoraan paikallisesti.
+        Tästä seuraa se etu etten ole riippuvainen laitevalmistajien tarjoamasta pilvipalvelusta tai kotiautomaationi ei lakkaa toimimasta jos internet yhteys katkeaa. Lisäksi voin asettaa laitteet erilliseen VLAN verkkoon josta ei ole pääsyä ulkoverkkoon.
+        Eli laitteet eivtä pääse niin sanotusta "soittelemaan kotiin" ja keräämään telemetriaa valmistajalle.
+      </p>
+      <p class="fs-5">
+        ESPHome on mahdollistanut helpon tavan tehdä omia älylaitteita ja olen raknetanut sen avulla kommunikaattorin jolla pystyn ohjaamaan kiinteistössä olevaan hybridi invertteriä ja keräämään siitä dataa käytönnössä reaaliajassa.
+        Home Assistantin oletus tietokanta ratkaisu on SQLite joka on kevyt ja helppo mutta suuren datamäärän kanssa se muuttuu hitaaksi. Tähän ratkaisuksi olen ottanut tietokantaratkaisuksi MariaDB mutta sekin on huono jos halutaan kerätä pitkäaikaista dataa.
+        MariaDB tuo kuitenkin huomattavaa parannusta suorituskykyyn, tällä hetkellä tietokannassa säilytetään tarkka data viimeiseltä 14 päivältä ja sitä vanhempi data on keskiarvoistettua dataa viimeiseltä vuodelta. Tällä hetkellä tietokannan koko on n. 5.8GB.
+      </p>
+      <p class="fs-5">
+        Minulla on kuitenkin pitkäaikaisen datan keräämistä varten asennettua InfluxDB tietokanta joka on parempi "time-series" tyyppisen datan keräämiseen ja sitä on helppo visualisoida esimerkiksi Grafanalla. InfluxDB tietokannan koko on tällä hetkellä reilu 15GB.
+        Tärkein asia mitä visualisoin Grafanalla on kiinteistöakun ja aurinkopaneelien muodostaman säästön suoraan eruoissa. Lisäksi minulla on Grafanaan rakennettu statistiikka esimerkiksi sähköauton toteutuneen latauksen kustanniksista sekä todellisesta keskihinnasta valitulla ajanjaksolla.
+      </p>
+
+    </div>
       
     </div>
-    <div class="col-4">
+</div>
+ 
+</br>
+
+<div class="modal fade" id="kuvaModal" tabindex="-1" aria-labelledby="kuvaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-white" id="kuvaModalLabel">Projektikuva</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Sulje"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalKuva" src="" class="img-fluid rounded" alt="">
+      </div>
     </div>
   </div>
 </div>
 
-</br>
+<script>
+  const kuvaModal = document.getElementById('kuvaModal');
+  const modalKuva = document.getElementById('modalKuva');
+
+  document.querySelectorAll('.open-image').forEach(img => {
+    img.addEventListener('click', function () {
+      modalKuva.src = this.src;
+      modalKuva.alt = this.alt;
+    });
+  });
+</script>
 
 <footer>
     <p class="lead text-center">&copy; 2026 Mikael Superi Murto</p>

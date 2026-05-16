@@ -14,3 +14,13 @@
   --bs-teriary-color: #09141380;
   --bs-tertiary-bg: #D7F1E5;
 }
+
+.custom-link {
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-link:hover {
+  background-color: #198754;
+  transform: translateX(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}

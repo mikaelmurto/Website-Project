@@ -57,7 +57,6 @@
 
 </br>
 
-
 <div class="container p-4 border border-3 rounded-5 bg-secondary text-white shadow-sm">
   <p class="fs-2 border-bottom text-dark fw-bold">Kuka olen ja mihin vapaa-aikani kuluu?</p>
   <div class="row">
@@ -77,35 +76,35 @@
             <p class="fs-3 border-bottom text-dark fw-bold">Kuvia projekteista</p>
               <div id="carouselExample"  class="carousel slide w-100">
                 <div class="carousel-inner">
-                  <div class="carousel-item active h-100 align-items-center justify-content-center">
-                    <img src="img/1.jpg" class="d-block w-100" alt="Vintage Johnson 3hp perämoottori jonka kunnostin käyttökuntoon.">
+                  <div class="carousel-item active h-100 align-items-center justify-content-center"> 
+                    <img src="img/1.jpg" class="d-block w-100 open-image" alt="Vintage Johnson 3hp perämoottori jonka kunnostin käyttökuntoon." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/2.jpg" class="d-block w-100" alt="Terhi MicroFun veneen maalaaminen."> 
+                    <img src="img/2.jpg" class="d-block w-100 open-image" alt="Terhi MicroFun veneen maalaaminen." data-bs-toggle="modal" data-bs-target="#kuvaModal"> 
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/3.jpg" class="d-block w-100" alt="Terhi MicroFun veneen kunnostaminen ja varustelu.">
+                    <img src="img/3.jpg" class="d-block w-100 open-image" alt="Terhi MicroFun veneen kunnostaminen ja varustelu." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/4.jpg" class="d-block w-100" alt="Puistoon pussikaljalle eli oma kegi ja hana mukana">
+                    <img src="img/4.jpg" class="d-block w-100 open-image" alt="Puistoon pussikaljalle eli oma kegi ja hana mukana" data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/5.jpg" class="d-block w-100" alt="Meikäläinen Pyhäjärvellä veneilemässä kunnostetulla Terhillä ja entisöidyllä Johnsonilla.">
+                    <img src="img/5.jpg" class="d-block w-100 open-image" alt="Meikäläinen Pyhäjärvellä veneilemässä kunnostetulla Terhillä ja entisöidyllä Johnsonilla." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/9.jpg" class="d-block w-100" alt="45kWh LiFePO4 akusto jonka asensin kotini sähkövarastoksi.">
+                    <img src="img/9.jpg" class="d-block w-100 open-image" alt="45kWh LiFePO4 akusto jonka asensin kotini sähkövarastoksi." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/11.jpg" class="d-block w-100" alt="Oluen hapeton siirtäminen käymisastiasta kegiin.">
+                    <img src="img/11.jpg" class="d-block w-100 open-image" alt="Oluen hapeton siirtäminen käymisastiasta kegiin." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/12.jpg" class="d-block w-100" alt="Itse rakennettu Keezer oluthanoineen.">
+                    <img src="img/12.jpg" class="d-block w-100 open-image" alt="Itse rakennettu Keezer oluthanoineen." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center">
-                    <img src="img/13.jpg" class="d-block w-100" alt="2026 avovesikauden ensimmäinen saalis.">
+                    <img src="img/13.jpg" class="d-block w-100 open-image" alt="2026 avovesikauden ensimmäinen saalis." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                   <div class="carousel-item h-100 align-items-center justify-content-center"> 
-                    <img src="img/15.jpg" class="d-block w-100" alt="Tällä hetkellä ajankohtainen Matkaaja Pallas 5000 matkailuvaunuprojekti.">
+                    <img src="img/15.jpg" class="d-block w-100 open-image" alt="Tällä hetkellä ajankohtainen Matkaaja Pallas 5000 matkailuvaunuprojekti." data-bs-toggle="modal" data-bs-target="#kuvaModal">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -141,20 +140,35 @@
           <img src="img/avatar.jpg" class="w-100 h-100 object-fit-cover border rounded" alt="My default profile picture on everywhere">
           <p class="text-center text-muted fst-italic">Profiilikuvani useissa eri palveluissa.<br>Kuvaaja: Lauri Ellilä</p>
       </div>
-      <div class="col-md-12 my-2 p-3"></div>
-
-      </div>
-  
-  <div class="row">
-    <div class="col-8">
-      
     </div>
-    <div class="col-4">
+  </div>
+
+
+</br>
+<div class="modal fade" id="kuvaModal" tabindex="-1" aria-labelledby="kuvaModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark border-0">
+      <div class="modal-header border-0">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Sulje"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalKuva" src="" class="img-fluid rounded" alt="" >
+      </div>
     </div>
   </div>
 </div>
 
-</br>
+<script>
+  const kuvaModal = document.getElementById('kuvaModal');
+  const modalKuva = document.getElementById('modalKuva');
+
+  document.querySelectorAll('.open-image').forEach(img => {
+    img.addEventListener('click', function () {
+      modalKuva.src = this.src;
+      modalKuva.alt = this.alt;
+    });
+  });
+</script>
 
 <footer>
     <p class="lead text-center">&copy; 2026 Mikael Superi Murto</p>
